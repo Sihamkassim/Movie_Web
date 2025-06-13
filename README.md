@@ -1,12 +1,39 @@
-# React + Vite
+# 🎬 Movie Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hey there! 👋  
+This is a simple, clean movie web app I built using **React**. It shows trending movies, lets you search for any title, and gives you all the juicy details (like ratings, overviews, and posters). Powered by the **TMDb API**.
 
-Currently, two official plugins are available:
+I built this as part of my summer bootcamp — learned a ton and had a blast doing it!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 💡 What It Can Do
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔥 Shows trending movies on the homepage
+- 🔎 Real-time search feature (with a little debounce magic)
+- 🎬 Click any movie to view more details in a modal
+- ⚡ Fast, responsive, and built with hooks
+- 🧠 Counts searches (using Appwrite – optional)
+
+---
+
+## 🛠 Tech I Used
+
+- **React**
+- **TMDb API**
+- **Appwrite** (for search count tracking)
+- **CSS** (or Tailwind if you're using it)
+- Maybe **Vite** for faster dev (if you're fancy 😌)
+
+---
+
+## 🚀 How To Run It
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/Sihamkassim/Movie_Web.git
+cd Movie_Web
+npm install
+VITE_TMDB_API_KEY=your_key_here
+npm run dev
