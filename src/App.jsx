@@ -104,7 +104,7 @@ const App = () => {
 
         {trendingMovies.length > 0 && (
           <section className="trending">
-            <h2>Trendings</h2>
+            <h2 className="underline text-white">Trendings</h2>
             <ul>
               {trendingMovies.map((movie, index) => (
                 <li key={movie.$id}>
@@ -151,5 +151,6 @@ const App = () => {
     </main>
   );
 };
+
 
 export default App;
