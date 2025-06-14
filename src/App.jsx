@@ -5,7 +5,7 @@ import { getTrendingMovies, updateSearchCount } from "./appwrite.js";
 import MovieCard from "./components/MovieCard.jsx";
 import MovieModal from "./components/MovieModal.jsx";
 import Search from "./components/Search.jsx";
-import Spinner from "./components/Spinner.jsx";
+import Spinner from "./components/Spinner_t.jsx";
 
 const API_BASE_URL = "https://api.themoviedb.org/3";
 const BEARER_TOKEN = import.meta.env.VITE_TMDB_API_KEY;
